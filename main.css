@@ -1,10 +1,12 @@
 body {
+
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
     background-color: #f0f0f0; /* Cor de fundo para um contraste mais suave */
+    background-image: url(./img/savanas.jpeg);
 }
 
 .container {
