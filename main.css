@@ -1,66 +1,69 @@
-body{
-  justify-content: center;
-}
-
-
-
-
-
-*{
-    text-decoration: none;
-}
-
-.container{
+body {
+    display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10%;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Cor de fundo para um contraste mais suave */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
     font-family: 'Courier New', Courier, monospace;
     border: 5px solid black;
     max-width: 350px;
     box-shadow: 10px 10px 10px 10px red;
-    margin-left: 790px;
-    margin-top: 310px;
-    
+    background-color: #fff; /* Cor de fundo do cartão */
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.nome{
-    margin-left: 20%;
+.nome h1 {
+    margin: 0;
 }
 
-
-
-.image{
-    margin-left: 25%;
+.image {
+    margin: 10px 0;
     border-radius: 50%;
-    object-fit: cover;
+    overflow: hidden; /* Para garantir que a imagem fique dentro do círculo */
     background-color: red;
-    width: 100px;   
-
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-.curso{
-    margin-left: 10%;
-    font-size: 17px;
+.image img {
+    width: 100%;
+    height: auto;
 }
 
-
-.redeSocial{
-    margin-left: 30%;
+.curso, .redeSocial, .contato {
+    margin: 10px 0;
+    text-align: center;
 }
 
+.curso h5 {
+    margin: 0;
+}
 
+.redeSocial a, .contato a {
+    text-decoration: none;
+    color: black; /* Ajuste a cor do link conforme necessário */
+}
 
-
-.contato{
+.contato {
     background-color: green;
     padding: 10px;
     border-radius: 10px;
-    width: 20%;
-    margin-left: 30%;
+    width: fit-content; /* Ajusta a largura ao conteúdo */
+    color: white;
 }
-
-
 
 .contato a {
     color: white;
