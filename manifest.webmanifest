@@ -3,7 +3,7 @@
     "short_name": "Cartão",
     "description": "Aplicativo de referencia dados do profissional de anderson",
     "start_url": ".",
-    "display": "fullscreen",
+    "display": "minimal-ui",
     "background_color": "#ffffff",
     "theme_color": "#000000",
     "icons": [
